@@ -1,0 +1,10 @@
+### sed commands ###
+sed -i 's/\[{/{\"key\"\:\[{/g' *.txt
+sed -i 's/}\]/}\]}/g' _0iekX6ZzBk.txt
+sed -i s/\'text\'/\"text\"/g _0iekX6ZzBk.txt
+sed -i s/\'start\'/\"start\"/g _0iekX6ZzBk.txt
+sed -i s/\'duration\'/\"duration\"/g _0iekX6ZzBk.txt
+sed -i s/\ \'/\ \"/g _0iekX6ZzBk.txt
+sed -i s/\'\,/\"\,/g _0iekX6ZzBk.txt
+sed -i 's/\'\[Music\]\'/\"\[Music\]\"/g *.txt
+sed -i s/\'\"/\"/g 3AoYqpiSHRM.txt
