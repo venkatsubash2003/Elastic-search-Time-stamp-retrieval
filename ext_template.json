@@ -1,0 +1,1 @@
+{"from": 50,"size": 50,"query": {"nested": {"path": "key","query": {"match": {"key.text" : "[music]"}},"inner_hits": {"_source" : false,"docvalue_fields" : ["key.text.keyword","key.start"]}}}}
